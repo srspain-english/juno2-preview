@@ -12,6 +12,9 @@ jobs:
   build:
     if: github.repository == 'srspain-english/juno2-preview'
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: read
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
