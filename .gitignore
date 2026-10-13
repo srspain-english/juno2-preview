@@ -1,0 +1,9 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.env
+.env.*
+test-results/
+screenshots/
+__pycache__/
+*.py[cod]
